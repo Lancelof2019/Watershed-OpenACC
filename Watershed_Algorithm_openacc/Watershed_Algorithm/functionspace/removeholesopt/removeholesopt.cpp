@@ -4,7 +4,7 @@ using namespace cv;
 void WatershedAlg::removeholesopt(Mat& src,int pnumThrshold, int handlingType, int neighbourType,int pixelThreshold)  {
    
  
-     	Mat Pointlabel(src.rows,src.cols, CV_8UC1,Scalar::all(255) ); 
+  Mat Pointlabel(src.rows,src.cols, CV_8UC1,Scalar::all(255) ); 
   #pragma acc data copy(src)  copyin(Pointlabel)   
  {
   #pragma acc parallel 
