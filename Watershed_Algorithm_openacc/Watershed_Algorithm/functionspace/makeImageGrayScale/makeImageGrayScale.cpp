@@ -5,7 +5,7 @@ using namespace cv;
 Mat WatershedAlg::makeImageGrayScale(Mat image) {
 
       Mat grayScale(image.rows, image.cols, CV_8UC1, Scalar::all(0));
-      #pragma acc data copy(image) copyin(grayScale)
+      #pragma acc data copy(grayScale) copyin(image) create(gray)
       {
       #pragma acc  parallel  
       {
