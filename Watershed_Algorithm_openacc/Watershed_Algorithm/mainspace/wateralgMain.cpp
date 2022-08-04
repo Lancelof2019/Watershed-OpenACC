@@ -1,4 +1,4 @@
-#include"/opt/MA/Watershed_Algorithm/headerspace/WatershedAlg.h" 
+#include"../headerspace/WatershedAlg.h" 
 #include<iostream>
  #include <time.h>
  using namespace std;
