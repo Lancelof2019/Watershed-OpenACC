@@ -1,4 +1,4 @@
-#include"/opt/MA/Watershed_Algorithm/headerspace/WatershedAlg.h"
+#include"../../headerspace/WatershedAlg.h"
 using namespace cv;
 
 void WatershedAlg::removeholesopt(Mat& src,int pnumThrshold, int handlingType, int neighbourType,int pixelThreshold)  {
