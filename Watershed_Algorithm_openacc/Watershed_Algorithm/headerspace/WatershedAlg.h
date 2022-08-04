@@ -1,6 +1,6 @@
 #ifndef WATERSHEDALG_H
 #define WATERSHEDALG_H
-#include"/opt/MA/Watershed_Algorithm/structPixel/structPixel.cpp"
+#include"../structPixel/structPixel.cpp"
 #include<iostream>
 #include <fstream>
 #include <opencv2/opencv.hpp>
